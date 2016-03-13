@@ -90,7 +90,7 @@
     .tableCenter {
         table-layout: fixed;
         border-collapse: collapse;
-        width: 250px;
+        width: 200px;
         height: auto;
         position: relative;
         margin: auto 275px;
@@ -98,43 +98,49 @@
     
     .cellStyle {
         margin: 0;
-        padding: 2px 2px 1px;
+        padding: 1px;
+        width: 40px;
+        height: 25px;
+
     }
     
     .cellStyleRow {
         margin: 0;
-        padding: 2px 2px 1px;
+        padding: 1px;
+        width: 40px;
+        height: 50px;
+
     }
 
     .cellStyleCol {
         margin: 0;
-        padding: 2px 2px 1px;
+        padding: 1px;
+        width: 80px;
+        height: 25px;
+
     }
     
     .buttonStyle {
-        width: 100%;
-        height: 100%;
+        width: 95%;
+        height: 95%;
         margin: 0;
         padding: 0;
-        border: 0;
         background-color: #C0C0C0;
     }
     
     .buttonStyleRow {
-        width: 100%;
-        height: 41px;
+        width: 95%;
+        height: 95%;
         margin: 0;
         padding: 0;
-        border: 0;
         background-color: #C0C0C0;
     }
     
     .buttonStyleCol {
-        width: 100%;
-        height: 100%;
+        width: 95%;
+        height: 95%;
         margin: 0;
         padding: 0;
-        border: 0;
         background-color: #C0C0C0;
     }
 
@@ -144,7 +150,7 @@
     }
 
     .inputStyle {
-        width: 240px; 
+        width: 190px; 
         border-style: solid;
         border-color: #C0C0C0;
     }
